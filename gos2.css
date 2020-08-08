@@ -1,0 +1,57 @@
+#zig {
+    padding: 64px;
+  }
+  
+  .zigr:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+ .zi img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {   
+.zigr{
+        display: flex;
+        flex-direction: column;
+    }
+    div#a{order:2;}
+    div#aim{order:1;}
+    div#b{order:4;}
+    div#bim{order:3;}
+    div#c{order:6;}
+    div#cim{order:5;}
+    div#d{order:8;}
+    div#dim{order:7;}
+    div#e{order:10;}
+    div#eim{order:9;}
+    div#f{order:12;}
+    div#fim{order:11;}
+
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+       
+    }
+    img {
+        margin: auto;
+      }
+      
+  }
+ 
